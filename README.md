@@ -17,6 +17,7 @@ Allows users to fill out a survey to help them decide which programming language
 1. Clone this repository.
 2. From the command line, navigate to track-suggester.html
 3. Double click the file to open the webpage in your broswer
+4. You can see a live version of the site here https://cyounger88.github.io/track-suggester/
 
 
 ## Known Bugs
