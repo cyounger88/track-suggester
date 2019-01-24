@@ -1,6 +1,11 @@
 body{
     background-color: black;
     margin: 25px;
+    
+}
+
+input {
+    color: beige;
 }
 
 p, h2 {
@@ -72,6 +77,8 @@ p, h2 {
     background-color: black;
     color: beige;
 }
+
+
 
 span {
     font-size: 23px;
