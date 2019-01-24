@@ -4,7 +4,7 @@ $(document).ready(function() {
         event.preventDefault();
     
         var result = parseInt($("#unit1").val());
-        var result2 = parseInt($("#unit2").val());
+        var result2 = ($("#unit2").val());
         var result3 = parseInt($("#unit3").val());
         var result4 = parseInt($("#unit4").val());
         var result5 = parseInt($("#unit5").val());
@@ -12,7 +12,8 @@ $(document).ready(function() {
         var results = parseInt((result + result2 + result3 + result4 + result5));
         console.log(results);
        
-    
+        console.log(result2);
+        
         if (results >= 4) {
          $('#output').text("You should become an engineer! Learn C#/.NET JS side");
          
